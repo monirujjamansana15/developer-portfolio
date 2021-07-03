@@ -9,6 +9,9 @@ body
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .header-area{
     display: flex;
     background-image: url(images/top-banner.png);
@@ -31,3 +34,26 @@ h1{
     font-weight: 700;
     border-radius: 7px;
 }
+.middle-area{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-left: 6.9%;
+    padding-top: 112px;
+}
+.middle-content{
+    width: 50%;
+}
+.middle-content img{
+    width: 85%;
+}
+.link-resume{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(252, 103, 128), rgb(245, 105, 80));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
