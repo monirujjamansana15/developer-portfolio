@@ -2,31 +2,43 @@ body
 {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
-.style-header{
+p 
+{
+    color: gray;
+}
+.style-header
+{
     color: orange;
 }
-h1{
+h1
+{
     font-size: 50px;
 }
-h2{
+h2
+{
     font-size: 40px;
 }
-.header-area{
+.header-area
+{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     padding-left: 6.9%;
 }
-.header-content{
+.header-content
+{
    width: 50%;
    
 
 }
-.header-content img{
+.header-content img
+{
     width: 85%;
 }
-.link-button{
+.link-button
+{
     text-decoration: none;
     background-image: linear-gradient(rgb(252, 103, 128), rgb(245, 105, 80));
     padding: 10px 40px;
@@ -34,7 +46,8 @@ h2{
     font-weight: 700;
     border-radius: 7px;
 }
-.middle-area{
+.middle-area
+{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-position: right;
@@ -42,13 +55,16 @@ h2{
     padding-left: 6.9%;
     padding-top: 112px;
 }
-.middle-content{
+.middle-content
+{
     width: 50%;
 }
-.middle-content img{
+.middle-content img
+{
     width: 85%;
 }
-.link-resume{
+.link-resume
+{
     text-decoration: none;
     background-image: linear-gradient(rgb(252, 103, 128), rgb(245, 105, 80));
     padding: 10px 40px;
@@ -56,4 +72,54 @@ h2{
     font-weight: 700;
     border-radius: 7px;
 }
+.lower-content
+{
+    
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 5%;
+    padding-left: 20px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.lower-area
+{
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.lower-parent
+{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.lower-content h2
+{
+    font-size: 40px;
+    
+}
+.lower-content h3
+{
+    color: orange;
+}
+#lower-border-content
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(245, 105, 80), rgb(252, 103, 128)) 60;
+    border-image-slice: 1;
+  
+}
+#lower-border-content-extra
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 60;
+    border-image-slice: 1;
 
+}
+footer p{
+    text-align: center;
+}
